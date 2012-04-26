@@ -37,12 +37,12 @@ object LiftProjectBuild extends Build {
 	    "net.liftweb" %% "lift-wizard" % liftVersion % "compile",
 	    "net.liftweb" %% "lift-mapper" % liftVersion % "compile",
 	    
-	    "com.h2database" % "h2" % "1.3.165" % "compile"
+	    "com.h2database" % "h2" % "1.3.165" % "compile",
 	    "ch.qos.logback" % "logback-classic" % "1.0.0" % "compile",
 
 	    "org.eclipse.jetty" % "jetty-webapp" % "7.5.4.v20111024" % "container",
 
-	    "org.scala-tools.testing" %% "specs" % "1.6.8" % "test",
+	    "org.scala-tools.testing" %% "specs" % "1.6.9" % "test",
 	    "org.scalatest" %% "scalatest" % "1.6.1" % "test",
 	    "junit" % "junit" % "4.10" % "test")
 	},
