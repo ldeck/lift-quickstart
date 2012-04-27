@@ -6,8 +6,11 @@ import Helpers._
 
 import common._
 import http._
+import mapper._
 import sitemap._
 import Loc._
+
+import code.model._
 
 /**
  * A class that's instantiated early and run.  It allows the application

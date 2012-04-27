@@ -6,9 +6,11 @@ import Helpers._
 
 import common._
 import http._
+import mapper._
 import sitemap._
 import Loc._
-import mapper._
+
+import code.model._
 
 /**
  * Boot Mapper config.

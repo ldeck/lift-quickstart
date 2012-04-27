@@ -6,9 +6,11 @@ import Helpers._
 
 import common._
 import http._
+import mapper._
 import sitemap._
 import Loc._
-import mapper._
+
+import code.model._
 
 /**
  * A class that's instantiated early and run.  It allows the application
@@ -17,8 +19,7 @@ import mapper._
 object BootSitemap {
   def boot {
     // Build SiteMap
-    def sitemap = SiteMap
-    (
+    def sitemap = SiteMap(
       Menu.i("Home") / "index" >> User.AddUserMenusAfter, // the simple way to declare a menu
 
       // more complex because this menu allows anything in the
